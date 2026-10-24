@@ -1,0 +1,19 @@
+.profileLink{display:flex;align-items:center;gap:12px;min-width:0;flex:1}
+.back{width:100%;text-align:left;font:inherit;font-size:12px!important;color:var(--muted);margin-bottom:12px;background:transparent;border:0;cursor:pointer}.back:hover{color:var(--indigo);background:var(--lavender)}
+.setup{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 26px;margin-bottom:26px;background:var(--lavender);border:1px solid var(--border);border-radius:20px}.setup strong{display:block;margin-top:6px}.setup p{margin:6px 0 0;color:var(--muted);font-size:13px}.setup ol{display:flex;gap:20px;padding:0;margin:0;list-style:none;font-size:12px;color:var(--muted)}.setup li[data-complete=true]{color:var(--teal)}.setup li[aria-current=step]{font-weight:700;color:var(--indigo)}@media(max-width:767px){.setup{display:block;padding:18px}.setup ol{margin-top:16px;flex-wrap:wrap;gap:10px}}
+.avatarLink{display:flex;align-items:center;gap:10px;border-radius:22px}
+.profileLink:hover strong,.exitLink:hover{color:var(--indigo)}
+.focusShell :global(.workspace-body){margin-left:0}
+.focusShell :global(.main-content){width:100%;max-width:none;padding:24px 32px 0}
+.focusShell :global(.app-header){padding:0 32px}
+.focusShell :global(.app-header)>div.focusBrand{gap:24px}
+.focusLabel{font-size:12px;color:var(--muted);border-left:1px solid var(--border);padding-left:24px}
+.exitLink{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)}
+.practiceLabel{font-size:10px;color:var(--indigo);background:var(--lavender);border-radius:15px;padding:5px 10px}
+@media(max-width:720px){.focusShell :global(.main-content){padding:18px 17px 0}.focusShell :global(.app-header){padding:0 17px}.focusBrand :global(.brand){font-size:16px}.focusBrand :global(.brand-mark){width:29px;height:29px}.focusLabel,.practiceLabel{display:none}.exitLink{font-size:10px;gap:5px}.avatarLink{gap:5px}}
+
+
+.focusShell{color:var(--text);background:var(--bg)}
+.focusShell :global(.workspace-body){margin-left:0!important;width:100%}
+.focusShell :global(.app-header){position:static}
+.focusShell :global(.workspace-route){transform:none!important}

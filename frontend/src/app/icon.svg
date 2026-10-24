@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <title>Pravista</title>
+  <defs><linearGradient id="pravista-gradient" x1="4" y1="7" x2="29" y2="26" gradientUnits="userSpaceOnUse"><stop stop-color="#A044F5"/><stop offset=".52" stop-color="#246BFF"/><stop offset="1" stop-color="#00D7E8"/></linearGradient></defs>
+  <path d="M3 18a13 13 0 0 1 26 0c-4-4-8-4-13 0-4-4-9-4-13 0Z" fill="url(#pravista-gradient)"/>
+  <path d="M16 5v13m0-13c-4 4-6 8-7 12m7-12c4 4 6 8 7 12" stroke="#F8FBFF" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M8 29c-1-5 3-8 8-12l5-3-2-.1a1 1 0 0 1 0-2l7 .3a1 1 0 0 1 1 1l-1 7a1 1 0 0 1-2-.3l.3-2c-5 4-10 7-13 12Z" fill="url(#pravista-gradient)"/>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "xmmum",
+  "private": true,
+  "version": "0.1.0",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "npm --prefix frontend run dev",
+    "dev:api": "node scripts/api.mjs",
+    "build": "npm --prefix frontend run build",
+    "test": "npm --prefix frontend test",
+    "test:api": "node scripts/api.mjs --test",
+    "test:e2e": "npm --prefix frontend run test:e2e"
+  }
+}

@@ -1,0 +1,10 @@
+.evidence{margin:20px 0;padding:16px;border:1px solid var(--border);border-radius:12px;background:var(--subtle);font-size:13px}
+.evidence>strong{display:flex;align-items:center;gap:8px;color:var(--text);font-size:13px}
+.evidence details{border:0;margin:12px 0 0;padding:0}
+.evidence summary{cursor:pointer;color:var(--text);line-height:1.7}
+.evidence summary span{text-transform:capitalize}
+.evidence ul{padding-left:18px}
+.evidence li{margin:8px 0}
+.evidence a{color:var(--indigo);overflow-wrap:anywhere}
+.evidence small{display:block;color:var(--muted);line-height:1.7}
+.evidence p{font-size:12px;line-height:1.65;color:var(--muted);margin:10px 0 0}

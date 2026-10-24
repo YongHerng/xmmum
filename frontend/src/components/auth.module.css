@@ -1,0 +1,18 @@
+.page{position:relative;min-height:100dvh;display:grid;place-items:center;padding:64px 24px;background:var(--bg);color:var(--text)}
+.theme{position:absolute;top:24px;right:28px}
+.formSection{width:100%;max-width:380px}
+.brand{display:flex;justify-content:center;margin-bottom:34px}
+.brand :global(.brand){font-size:22px;gap:10px;letter-spacing:-.8px}
+.formContent h1{text-align:center;font-size:32px;line-height:1.2;letter-spacing:-1px;font-weight:550}
+.intro{text-align:center;font-size:14px;line-height:1.7;color:var(--muted);margin:10px 0 30px}
+.formContent form{display:flex;flex-direction:column;gap:18px}
+.formContent :global(label){display:flex;flex-direction:column;gap:8px;margin:0;font-size:13px;font-weight:500;color:var(--text)}
+.formContent :global(input){width:100%;min-height:50px;margin:0;padding:13px 15px;border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--text);font-size:14px;font-weight:400}
+.formContent :global(input)::placeholder{color:var(--muted)}
+.formContent form :global(.btn){width:100%;min-height:50px;margin-top:4px;border-radius:12px}
+.formContent :global(.notice){margin-bottom:20px}
+.status:empty{display:none}
+.switch{text-align:center;margin:24px 0 0;font-size:13px;line-height:1.7;color:var(--muted)}
+.switch a{color:var(--indigo);font-weight:550;margin-left:5px}
+.switch a:hover{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:480px){.theme{top:20px;right:20px}.brand{margin-bottom:30px}.formContent h1{font-size:30px}}

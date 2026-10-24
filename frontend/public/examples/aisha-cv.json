@@ -1,0 +1,241 @@
+{
+  "cv": {
+    "name": "Aisha Rahman",
+    "email": "aisha.rahman@example.invalid",
+    "phone": "",
+    "summary": "Computer science graduate interested in using data to support cleaner energy decisions.\nEnjoys turning complex information into clear, practical insights.",
+    "education": "BSc Computer Science\nExample University, Malaysia | 2023 - 2026",
+    "experience": "Student Data Analyst | Fictional Campus Project\nPrepared SQL reports and presented findings to a small research team.",
+    "projects": "Renewable Energy Dashboard\nBuilt a Python dashboard to explore energy use and communicate trends.",
+    "membership_licensure": "",
+    "certificates_training": "",
+    "skills": [
+      "Communication",
+      "Data analysis",
+      "Python",
+      "SQL"
+    ],
+    "target_role": "data-analyst",
+    "ai_consent": false
+  },
+  "characters": 666,
+  "document": {
+    "pages": [
+      {
+        "number": 1,
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "fields": [
+      {
+        "key": "name",
+        "value": "Aisha Rahman",
+        "sources": [
+          {
+            "page": 0,
+            "box": [
+              0.08067226890756303,
+              0.04661520190023753,
+              0.3725209981453519,
+              0.08750000362441546
+            ]
+          }
+        ],
+        "confidence": null,
+        "needs_review": false,
+        "reason": ""
+      },
+      {
+        "key": "email",
+        "value": "aisha.rahman@example.invalid",
+        "sources": [
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.11787410926365796,
+              0.3170419901358981,
+              0.1341923965127904
+            ]
+          }
+        ],
+        "confidence": null,
+        "needs_review": false,
+        "reason": ""
+      },
+      {
+        "key": "phone",
+        "value": "",
+        "sources": [],
+        "confidence": null,
+        "needs_review": false,
+        "reason": ""
+      },
+      {
+        "key": "skills",
+        "value": "Communication, Data analysis, Python, SQL",
+        "sources": [
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.66270783847981,
+              0.43543526785714287,
+              0.6798420450749703
+            ]
+          },
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.5659092701529097,
+              0.6571532177324054,
+              0.5830434767480701
+            ]
+          },
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.45189501837143703,
+              0.6414295356814601,
+              0.4690292249665974
+            ]
+          }
+        ],
+        "confidence": null,
+        "needs_review": true,
+        "reason": "Some text was normalized. Check this field against the document."
+      },
+      {
+        "key": "summary",
+        "value": "Computer science graduate interested in using data to support cleaner energy decisions.\nEnjoys turning complex information into clear, practical insights.",
+        "sources": [
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.21021374047793573,
+              0.7748416676240809,
+              0.22734794707309605
+            ]
+          },
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.23099244178898828,
+              0.5786059980632878,
+              0.2481266483841486
+            ]
+          }
+        ],
+        "confidence": null,
+        "needs_review": false,
+        "reason": ""
+      },
+      {
+        "key": "education",
+        "value": "BSc Computer Science\nExample University, Malaysia | 2023 - 2026",
+        "sources": [
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.3218526953472944,
+              0.26477053345752366,
+              0.33898690194245473
+            ]
+          },
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.34263139665834697,
+              0.4213705623851103,
+              0.35976560325350726
+            ]
+          }
+        ],
+        "confidence": null,
+        "needs_review": false,
+        "reason": ""
+      },
+      {
+        "key": "experience",
+        "value": "Student Data Analyst | Fictional Campus Project\nPrepared SQL reports and presented findings to a small research team.",
+        "sources": [
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.4311163895486936,
+              0.45865878577993696,
+              0.44825059614385393
+            ]
+          },
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.45189501837143703,
+              0.6414295356814601,
+              0.4690292249665974
+            ]
+          }
+        ],
+        "confidence": null,
+        "needs_review": false,
+        "reason": ""
+      },
+      {
+        "key": "projects",
+        "value": "Renewable Energy Dashboard\nBuilt a Python dashboard to explore energy use and communicate trends.",
+        "sources": [
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.5451306413301663,
+              0.32265291614692754,
+              0.5622648479253266
+            ]
+          },
+          {
+            "page": 0,
+            "box": [
+              0.08235294117647059,
+              0.5659092701529097,
+              0.6571532177324054,
+              0.5830434767480701
+            ]
+          }
+        ],
+        "confidence": null,
+        "needs_review": false,
+        "reason": ""
+      },
+      {
+        "key": "membership_licensure",
+        "value": "",
+        "sources": [],
+        "confidence": null,
+        "needs_review": false,
+        "reason": ""
+      },
+      {
+        "key": "certificates_training",
+        "value": "",
+        "sources": [],
+        "confidence": null,
+        "needs_review": false,
+        "reason": ""
+      }
+    ],
+    "used_ocr": false,
+    "reformatted": false,
+    "pdf_base64": null
+  },
+  "notice": "Review every field. Extraction can miss or misclassify information. Original file discarded."
+}
